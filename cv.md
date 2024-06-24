@@ -13,7 +13,6 @@ Have been in samsara since beginningless time, just like all living beings.
 * Adobe Photoshop
 * Git, GitHub
 * VS Code
-* Adobe Photoshop
 ## Languages:
 * Russian: Native
 * English: Intermediate/Upper-intermediate (according to the online test at [efset.org](efset.org))
