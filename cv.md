@@ -7,3 +7,14 @@
 * GitHub: pavliq
 ## About myself:
 Have been in samsara since beginningless time, just like all living beings.
+## My skills:
+* HTML/CSS
+* Basic JS
+* Adobe Photoshop
+* Git, GitHub
+* VS Code
+* Adobe Photoshop
+## Languages:
+* Russian: Native
+* English: Intermediate/Upper-intermediate (according to the online test at [efset.org](efset.org))
+* Spanish: Basic
