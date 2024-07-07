@@ -1,0 +1,110 @@
+@font-face {
+    font-family:'Roboto' ;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* TEXT STYLES */
+
+.section-header {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #000000;
+}
+
+.cv-paragraph {
+    font-family: 'Roboto';
+    color: #73808D;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/* NAVIGATION */
+
+.navigation {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation-link:hover {
+    color: #73808D;
+}
+
+/* CONTACTS */
+
+.contacts {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.contacts-list {
+    padding: 0;
+    list-style: none;
+    color: #73808D;
+}
+
+/* SKILLS */
+
+.skills-list {
+    padding: 0;
+    list-style: none;
+    color: #73808D; 
+}
+
+/* LANGUAGES */
+
+.languages-list {
+    padding: 0;
+    list-style: none;
+    color: #73808D; 
+}
+
+/* FOOTER */
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-text {
+    font-family: 'Roboto';
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+}
