@@ -14,6 +14,6 @@ Have been in samsara since beginningless time, just like all living beings.
 * Git, GitHub
 * VS Code
 ## Languages:
-* Russian
+* Russian (native)
 * English
 * Spanish
