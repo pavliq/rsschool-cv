@@ -12,13 +12,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: "Poppins";
-  src: url(assets/fonts/Poppins-SemiBold.woff) format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
+
 @font-face {
   font-family: "Poppins";
   src: url(assets/fonts/Poppins-Bold.woff) format("woff");
@@ -33,13 +27,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: "Open Sans";
-  src: url(assets/fonts/OpenSans-SemiBold.woff) format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
+
 @font-face {
   font-family: "Open Sans";
   src: url(assets/fonts/OpenSans-Bold.woff) format("woff");
@@ -50,8 +38,80 @@ body {
 
 h1 {
   font-family: "Poppins";
+  color: #403333;
   font-size: 4.4rem;
   font-style: normal;
   font-weight: bold;
-  line-height: 5.4rem;
+  line-height: 2.5rem;
+  text-align: center;
 }
+
+h2 {
+  font-family: "Arial";
+  color: #736565;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem;
+  text-align: center;
+  letter-spacing: 27px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-container {
+  max-width: 467px;
+  margin: 0 auto;
+}
+
+.name-header {
+  margin: 0;
+}
+
+.position-header {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #403333;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 300;
+}
+
+.nav-item:hover {
+  color: #A6A085;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-basis: 45%;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.text {
+  font-family: "Arial";
+  color: #736565;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
