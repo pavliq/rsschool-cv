@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="style.css">
-    <title>Curriculum Vitae</title>
 </head>
 <body>
     <header class="header">
@@ -15,18 +14,18 @@
                 <h2 class="position-header">web developer</h2>
                 <nav class="header-navigation">
                     <ul class="nav-list">
-                        <li class="nav-item">About</li>
-                        <li class="nav-item">Languages</li>
-                        <li class="nav-item">Education</li>
-                        <li class="nav-item">Skills</li>
-                        <li class="nav-item">Contacts</li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section class="about">
+        <section class="about" id="about">
             <img src="./assets/img/avatar.jpeg" class="avatar" width="200" height="200" alt="My photo">
             <div class="wrapper content-wrapper">
                 <h4 class="header-line">About myself</h4> 
@@ -37,7 +36,7 @@
                 in the hours and I’m ready to do more.</p>
             </div>
         </section>
-        <section class="languages">
+        <section class="languages" id="languages">
             <div class="wrapper content-wrapper">
                 <h4 class="header-line">My languages</h4>
                 <ul class="feature-list">
@@ -47,7 +46,7 @@
                 </ul>
             </div>
         </section>
-        <section class="education">
+        <section class="education" id="education">
             <div class="wrapper content-wrapper">
                 <h4 class="header-line">My education</h4>
                 <ul class="feature-list">
@@ -55,7 +54,7 @@
                 </ul>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="wrapper content-wrapper">
                 <h4 class="header-line">My skills</h4>
                 <ul class="feature-list">
@@ -69,16 +68,25 @@
                 </ul>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="wrapper content-wrapper">
                 <h4 class="header-line">My contacts</h4>
                 <ul class="feature-list">
-                    <li class="feature-item">e-mail: el_pavliq@gmail.com</li>
-                    <li class="feature-item">telegram: the_pavliq</li>
-                    <li class="feature-item">mobile: +91 7675997720</li>
+                    <li class="feature-item"><a href="mailto:my_mail@gmail.com" class="contacts-link">e-mail: my_mail@gmail.com</a></li>
+                    <li class="feature-item"><a href="https://t.me/my_telegram" class="contacts-link">telegram: @my_telegram</a></li>
+                    <li class="feature-item"><a href="tel:+917675997720" class="contacts-link">mobile: +91 7675-99-77-20</a></li>
                 </ul>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-container">
+                <a href="https://rs.school/courses/javascript-ru"><img src="./assets/img/rs-school-logo.svg" class="rs-logo" width="100" height="100" alt="RS School"></a>
+                <a href="https://github.com/pavliq"><img src="./assets/img/GitHub_Logo.png" class="rs-logo" width="100" height="41" alt="GitHub"></a>
+                <h5 class="footer-header">2025</h5>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
